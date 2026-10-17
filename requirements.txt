@@ -1,0 +1,5 @@
+streamlit>=1.35,<2
+playwright>=1.45,<2
+beautifulsoup4>=4.12,<5
+openai>=1.40,<3
+streamlit-autorefresh>=1.0.1,<2

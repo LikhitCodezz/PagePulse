@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local assistant/editor instructions are not part of the application
+.agents/
+.claude/
+.codex/
+
+# Local PagePulse data (may contain watched-page content and screenshots)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Tooling / editor files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Locally downloaded browser binaries
+ms-playwright/
